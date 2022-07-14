@@ -78,11 +78,15 @@
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. logo mobile IMG BACKGROUND */
 .header-navigation-xs .logo-holder {
-background: url(../img/logo-light.png) no-repeat center;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+background: url(../img/logo-dark.svg) no-repeat center;
 }
 
 .header-navigation-xs .logo-holder.logo-holder-dark {
-background: url(../img/logo-dark.png) no-repeat center;
+  -webkit-filter: invert(0%);
+  filter: invert(0%);
+background: url(../img/logo-dark.svg) no-repeat center;
 }
 
 
@@ -2117,8 +2121,8 @@ background-repeat: no-repeat;
     -ms-background-size: cover;
      -o-background-size: cover;
         background-size: cover;
--webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
+-webkit-filter: grayscale(30%);
+        filter: grayscale(30%);
 -webkit-transition: all 1s ease;
    -moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
@@ -2343,8 +2347,8 @@ background-repeat: no-repeat;
     -ms-background-size: cover;
      -o-background-size: cover;
         background-size: cover;
--webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
+-webkit-filter: grayscale(30%);
+        filter: grayscale(30%);
 -webkit-transition: all 1s ease;
    -moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
